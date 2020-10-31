@@ -222,8 +222,8 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
 
   EventName.startup: {
     ET.PERMANENT: Alert(
-      "Be ready to take over at any time",
-      "Always keep hands on wheel and eyes on road",
+      "Dont be a dingus",
+      "You're the manager, not a passenger",
       AlertStatus.normal, AlertSize.mid,
       Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
   },
@@ -252,13 +252,13 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
       Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
   },
 
-  EventName.startupGreyPanda: {
-    ET.PERMANENT: Alert(
-      "WARNING: Grey panda is deprecated",
-      "Upgrade to comma two or black panda",
-      AlertStatus.userPrompt, AlertSize.mid,
-      Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
-  },
+  #EventName.startupGreyPanda: {
+   # ET.PERMANENT: Alert(
+     # "WARNING: Grey panda is deprecated",
+     # "Upgrade to comma two or black panda",
+     # AlertStatus.userPrompt, AlertSize.mid,
+     # Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
+#  },
 
   EventName.invalidGiraffeToyota: {
     ET.PERMANENT: Alert(
