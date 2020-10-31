@@ -254,8 +254,8 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
 
   EventName.startupGreyPanda: {
     ET.PERMANENT: Alert(
-      "WARNING: Grey panda is deprecated",
-      "Upgrade to comma two or black panda",
+      "Don't be a dingus",
+      "You're the manager, not the passenger",
       AlertStatus.userPrompt, AlertSize.mid,
       Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
   },
